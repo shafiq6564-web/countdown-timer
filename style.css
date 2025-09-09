@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  background: #0f172a;
+  color: #fff;
+  margin:0;
+}
+
+.countdown {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align:center;
+}
+
+.timers {
+  display:flex;
+  gap:10px;
+  justify-content:center;
+}
+
+.unit {
+  padding: 10px;
+  background:#1e293b;
+  border-radius:6px;
+  min-width:60px;
+}
+
+.value {
+  font-size:28px;
+  font-weight:bold;
+}
+
+.label {
+  font-size:12px;
+}
+
+.finished {
+  margin-top:12px;
+  font-weight:bold;
+  color:#ffd166;
+}
